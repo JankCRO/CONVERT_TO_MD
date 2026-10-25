@@ -1,0 +1,59 @@
+# Entornos virtuales y gestores de paquetes
+.venv/
+venv/
+env/
+ENV/
+
+# Artefactos de compilación y empaquetado (PyInstaller)
+build/
+dist/
+*.spec
+*.manifest
+
+# Salida generada por la aplicación
+output/
+
+# Caché de Python y archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribución y empaquetado de Python
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos de desarrollo (IDEs y editores)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Pruebas, cobertura y linters
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Archivos temporales del Sistema Operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.log
+*.tmp
